@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "604985225432",
+    "project_id": "sharemeal-d6854",
+    "storage_bucket": "sharemeal-d6854.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604985225432:android:2f97b715adbf0f88f8a7ad",
+        "android_client_info": {
+          "package_name": "com.example.sharemeal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604985225432-qi7q3tbfrp1tbf27htjr2mgup759m1id.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxNdtF4jbxpZ_1vKP3L5zccItA1qqlHcQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604985225432-qi7q3tbfrp1tbf27htjr2mgup759m1id.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
