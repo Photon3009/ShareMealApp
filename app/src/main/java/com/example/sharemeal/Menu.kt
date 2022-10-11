@@ -2,6 +2,7 @@ package com.example.sharemeal
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
@@ -31,6 +32,8 @@ fun DMenu(navController: NavController){
             verticalArrangement = Arrangement.spacedBy(15.dp)
         ) {
            // Spacer(modifier = Modifier.height(16.dp))
+
+
             Image(
                 painter = painterResource(R.drawable.untitled_design_),
                 contentDescription = null,
@@ -96,7 +99,7 @@ fun DMenu(navController: NavController){
                         Text(text = "History", color = Color.White)
                     }
                     Button(
-                        onClick = { navController.navigate(Screen.DRegisterScreen.route)
+                        onClick = { navController.navigate(Screen.Home.route)
                                   FirebaseAuth.getInstance().signOut()},
                         Modifier.fillMaxWidth(),
                         border = BorderStroke(width = 1.dp, brush = SolidColor(Color.Gray)),
@@ -118,6 +121,7 @@ fun DMenu(navController: NavController){
         }
     }
 }
+
 @Preview(showBackground = true)
 @Composable
 fun Preview4(){

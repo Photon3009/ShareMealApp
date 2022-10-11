@@ -92,7 +92,7 @@ fun NMenu(navController:NavController){  Surface(color = Color.White) {
 //                    Text(text = "History", color = Color.White)
 //                }
                 Button(
-                    onClick = { navController.navigate(Screen.NRegisterScreen.route)
+                    onClick = { navController.navigate(Screen.Home.route)
                         FirebaseAuth.getInstance().signOut()},
                     Modifier.fillMaxWidth(),
                     border = BorderStroke(width = 1.dp, brush = SolidColor(Color.Gray)),

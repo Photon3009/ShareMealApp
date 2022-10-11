@@ -49,7 +49,8 @@ if(flag==false){
                 Log.d(TAG, "${document.id} => ${document.data}")
                 userData3.add(UserSpecificD(docId = document.id, docData = "${document.data}",
                     Address = "${document.data["Address"]}",MobNo="${document.data["MobNo"]}",
-                Vehicle = "${document.data["Vehicle"]}", weight = "${document.data["Weight"]}"))
+                Vehicle = "${document.data["Vehicle"]}", weight = "${document.data["Weight"]}",approve = "${document.data["Approve"]}",
+                    received = "${document.data["Received"]}"))
             }
 
         }

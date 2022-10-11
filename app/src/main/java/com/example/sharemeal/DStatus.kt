@@ -11,6 +11,7 @@ import androidx.compose.material.Divider
 import androidx.compose.material.Text
 import androidx.compose.material.TextButton
 import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
@@ -44,7 +45,8 @@ fun DStatus(){
                     Log.d(ContentValues.TAG, "${document.id} => ${document.data}")
                     userData4.add(UserSpecificD(docId = document.id, docData = "${document.data}",
                         Address = "${document.data["Address"]}",MobNo="${document.data["MobNo"]}",
-                        Vehicle = "${document.data["Vehicle"]}", weight = "${document.data["Weight"]}"))
+                        Vehicle = "${document.data["Vehicle"]}", weight = "${document.data["Weight"]}", approve = "${document.data["Approve"]}",
+                    received = "${document.data["Received"]}"))
                 }
 
             }
@@ -55,7 +57,7 @@ fun DStatus(){
     flag=true
     Column(modifier = Modifier
         .fillMaxWidth()
-        .verticalScroll(rememberScrollState())) {
+        .verticalScroll(rememberScrollState()), horizontalAlignment = Alignment.CenterHorizontally) {
 
     Row(
         modifier = Modifier.fillMaxWidth(),
@@ -64,7 +66,7 @@ fun DStatus(){
         Card(elevation = 6.dp,
         border = BorderStroke(2.dp, Color.Red), modifier = Modifier
                 .padding(3.dp)
-                .padding(4.dp)
+                .padding(4.dp), backgroundColor = Color.Red
         ) {
             Text("Pending", modifier = Modifier.padding(4.dp))
         }
@@ -72,29 +74,29 @@ fun DStatus(){
             border = BorderStroke(2.dp, Color.Yellow),
             modifier = Modifier
                 .padding(3.dp)
-                .padding(4.dp)) {
+                .padding(4.dp),backgroundColor = Color.Yellow) {
             Text("Approved",modifier = Modifier.padding(4.dp))
         }
         Card(elevation = 6.dp,
             border = BorderStroke(2.dp, Color.Green),
             modifier = Modifier
                 .padding(3.dp)
-                .padding(4.dp)) {
+                .padding(4.dp),backgroundColor = Color.Green) {
             Text("Received",modifier = Modifier.padding(4.dp))
         }
     }
         Divider(thickness = 4.dp)
 
     for (e in userData4) {
-   if(e.approve==false&&e.received==false){
+   if(e.approve=="false"&&e.received=="false"){
        RedCard(weightF ="${e.weight}", vehicleT ="${e.Vehicle}", address ="${e.Address}", mobNo = "${e.MobNo}",
        docId = "${e.docId}")
    }
-    if(e.approve==true&&e.received==false){
+    if(e.approve=="true"&&e.received=="false"){
         YellowCard(weightF ="${e.weight}", vehicleT ="${e.Vehicle}", address ="${e.Address}", mobNo = "${e.MobNo}",
             docId = "${e.docId}")
     }
-    if(e.approve==true&&e.received==true){
+    if(e.approve=="true"&&e.received=="true"){
         GreenCard(weightF ="${e.weight}", vehicleT ="${e.Vehicle}", address ="${e.Address}", mobNo = "${e.MobNo}",
             docId = "${e.docId}")
     }

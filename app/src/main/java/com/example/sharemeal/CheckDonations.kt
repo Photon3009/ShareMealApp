@@ -41,14 +41,15 @@ Column(modifier = Modifier.fillMaxWidth().verticalScroll(rememberScrollState()))
 
 
     if(flag==false){
-        db.collection(  FirebaseAuth.getInstance().getCurrentUser()?.getUid().toString())
+        db.collection(  "ByqaeKNtlwZnV8ZWXYUfyJyWGpH3")
             .get()
             .addOnSuccessListener { result ->
                 for (document in result) {
                     Log.d(ContentValues.TAG, "${document.id} => ${document.data}")
                     userData5.add(UserSpecificD(docId = document.id, docData = "${document.data}",
                         Address = "${document.data["Address"]}",MobNo="${document.data["MobNo"]}",
-                        Vehicle = "${document.data["Vehicle"]}", weight = "${document.data["Weight"]}"))
+                        Vehicle = "${document.data["Vehicle"]}", weight = "${document.data["Weight"]}",approve = "${document.data["Approve"]}",
+                        received = "${document.data["Received"]}"))
                 }
 
             }
@@ -74,7 +75,8 @@ Column(modifier = Modifier.fillMaxWidth().verticalScroll(rememberScrollState()))
             ){
                 Spacer(modifier = Modifier.width(20.dp))
                 Button(
-                    onClick = { e.approve=true
+                    onClick = { db.collection("ByqaeKNtlwZnV8ZWXYUfyJyWGpH3").document("${e.docId}")
+                        .update(mapOf("Approve" to "true"))
                               },
                     border = BorderStroke(width = 1.dp, brush = SolidColor(Color.Gray)),
                     colors = ButtonDefaults.buttonColors(
@@ -91,7 +93,9 @@ Column(modifier = Modifier.fillMaxWidth().verticalScroll(rememberScrollState()))
                 }
                 Button(
                 onClick = {
-                    e.received=true },
+                    db.collection("ByqaeKNtlwZnV8ZWXYUfyJyWGpH3").document("${e.docId}")
+                        .update(mapOf("Received" to "true"))
+                },
                 border = BorderStroke(width = 1.dp, brush = SolidColor(Color.Gray)),
                 colors = ButtonDefaults.buttonColors(
                     backgroundColor = Color(
