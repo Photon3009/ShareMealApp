@@ -22,21 +22,31 @@ In this system, we have tried to reduce restaurant food wastage by giving waste 
 
 **Functionality:** This application is divided into mainly 2 components- The donor interface and the NGO interface.
 
-![](RackMultipart20221012-1-meu6gc_html_3d75bc71c6395501.png)
+![Screenshot_1665500240](https://user-images.githubusercontent.com/100941430/195267923-43f8fc95-4f69-45eb-9cb4-1ffb5e1c36bd.png)
+
 
 Donors and NGOs have separate registration and login interface:
 
-![](RackMultipart20221012-1-meu6gc_html_599010054764e67.png) ![](RackMultipart20221012-1-meu6gc_html_ab6df4a7e0cc29cd.png)
+![Screenshot_1665500246](https://user-images.githubusercontent.com/100941430/195268157-d188a541-cb95-4f3d-85ff-a0d1366e884d.png)
+![Screenshot_1665500254](https://user-images.githubusercontent.com/100941430/195268249-b9a4376b-2a63-4728-9bed-63d0bc2408ef.png)
+
 
 Similarly, we have different menu pages for donors and NGOs:
 
-![](RackMultipart20221012-1-meu6gc_html_7bc913dd3ccda161.png) ![](RackMultipart20221012-1-meu6gc_html_ea3cbb5f7032837a.png)
+![Screenshot_1665500277](https://user-images.githubusercontent.com/100941430/195268610-c605a1c4-b38b-4eab-a83d-8ba87ef21b79.png)
+![Screenshot_1665500368](https://user-images.githubusercontent.com/100941430/195268681-e24d25ae-6577-4d31-bbcb-9d884f2ad1b9.png)
+
+
 
 Now donors like hostels,hotels etc can use donate, status and history options. In donate button they can mention food weight, suggest vehicle type, and also mention their mobile number and address. This data will then send to NGOs so that they can approve and accept their donation.
 
 Donors can also check their donation status by clicking on the status button if it is pending, approved or received status. This way we can connect reduce food wastage.
 
-![](RackMultipart20221012-1-meu6gc_html_66905e0215ee5c45.png) ![](RackMultipart20221012-1-meu6gc_html_b39cd411091d58f4.png) ![](RackMultipart20221012-1-meu6gc_html_cae7fe30d8d4acf1.png) ![](RackMultipart20221012-1-meu6gc_html_d071f4420b4f6fb5.png)
+![Screenshot_1665500292](https://user-images.githubusercontent.com/100941430/195268776-1a10c46c-573c-497f-b133-432c62d0497c.png)
+![Screenshot_1665500302](https://user-images.githubusercontent.com/100941430/195268817-0e6b433b-892a-4c0b-94f6-8c98e1e9b136.png)
+![Screenshot_1665500313](https://user-images.githubusercontent.com/100941430/195268852-ccfc7a4e-8308-490d-b6e7-1bb5a4e220de.png)
+![Screenshot_1665500378](https://user-images.githubusercontent.com/100941430/195268891-53ab6231-7b9d-4ab6-9720-3c8482b82240.png)
+
 
 **Concepts Used:**
 
