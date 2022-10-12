@@ -38,7 +38,7 @@ fun DStatus(){
 
 
     if(flag==false){
-        db.collection(FirebaseAuth.getInstance().getCurrentUser()?.getUid().toString())
+        db.collection("rewHrM4pbudK7UncJhOsdfffgII2")
             .get()
             .addOnSuccessListener { result ->
                 for (document in result) {

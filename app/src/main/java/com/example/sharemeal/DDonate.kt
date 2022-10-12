@@ -160,7 +160,9 @@ Spacer(modifier = Modifier.height(20.dp))
                     "Weight" to weightF,
                     "Vehicle" to vehicleF,
                 "Address" to address,
-                "MobNo" to mobno
+                "MobNo" to mobno,
+                    "Approve" to "false",
+                    "Received" to "false"
                 )
 
 

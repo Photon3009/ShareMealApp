@@ -41,7 +41,7 @@ Column(modifier = Modifier.fillMaxWidth().verticalScroll(rememberScrollState()))
 
 
     if(flag==false){
-        db.collection(  "ByqaeKNtlwZnV8ZWXYUfyJyWGpH3")
+        db.collection(  "rewHrM4pbudK7UncJhOsdfffgII2")
             .get()
             .addOnSuccessListener { result ->
                 for (document in result) {
@@ -75,7 +75,7 @@ Column(modifier = Modifier.fillMaxWidth().verticalScroll(rememberScrollState()))
             ){
                 Spacer(modifier = Modifier.width(20.dp))
                 Button(
-                    onClick = { db.collection("ByqaeKNtlwZnV8ZWXYUfyJyWGpH3").document("${e.docId}")
+                    onClick = { db.collection("rewHrM4pbudK7UncJhOsdfffgII2").document("${e.docId}")
                         .update(mapOf("Approve" to "true"))
                               },
                     border = BorderStroke(width = 1.dp, brush = SolidColor(Color.Gray)),
@@ -93,7 +93,7 @@ Column(modifier = Modifier.fillMaxWidth().verticalScroll(rememberScrollState()))
                 }
                 Button(
                 onClick = {
-                    db.collection("ByqaeKNtlwZnV8ZWXYUfyJyWGpH3").document("${e.docId}")
+                    db.collection("rewHrM4pbudK7UncJhOsdfffgII2").document("${e.docId}")
                         .update(mapOf("Received" to "true"))
                 },
                 border = BorderStroke(width = 1.dp, brush = SolidColor(Color.Gray)),
