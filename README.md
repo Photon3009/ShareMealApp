@@ -22,31 +22,15 @@ In this system, we have tried to reduce restaurant food wastage by giving waste 
 
 **Functionality:** This application is divided into mainly 2 components- The donor interface and the NGO interface.
 
-<img src="https://user-images.githubusercontent.com/100941430/195267923-43f8fc95-4f69-45eb-9cb4-1ffb5e1c36bd.png" width 200 height=300>
-
-
 Donors and NGOs have separate registration and login interface:
 
-![Screenshot_1665500246](https://user-images.githubusercontent.com/100941430/195268157-d188a541-cb95-4f3d-85ff-a0d1366e884d.png)
-![Screenshot_1665500254](https://user-images.githubusercontent.com/100941430/195268249-b9a4376b-2a63-4728-9bed-63d0bc2408ef.png)
-
-
 Similarly, we have different menu pages for donors and NGOs:
-
-![Screenshot_1665500277](https://user-images.githubusercontent.com/100941430/195268610-c605a1c4-b38b-4eab-a83d-8ba87ef21b79.png)
-![Screenshot_1665500368](https://user-images.githubusercontent.com/100941430/195268681-e24d25ae-6577-4d31-bbcb-9d884f2ad1b9.png)
-
-
 
 Now donors like hostels,hotels etc can use donate, status and history options. In donate button they can mention food weight, suggest vehicle type, and also mention their mobile number and address. This data will then send to NGOs so that they can approve and accept their donation.
 
 Donors can also check their donation status by clicking on the status button if it is pending, approved or received status. This way we can connect reduce food wastage.
 
-![Screenshot_1665500292](https://user-images.githubusercontent.com/100941430/195268776-1a10c46c-573c-497f-b133-432c62d0497c.png)
-![Screenshot_1665500302](https://user-images.githubusercontent.com/100941430/195268817-0e6b433b-892a-4c0b-94f6-8c98e1e9b136.png)
-![Screenshot_1665500313](https://user-images.githubusercontent.com/100941430/195268852-ccfc7a4e-8308-490d-b6e7-1bb5a4e220de.png)
-![Screenshot_1665500378](https://user-images.githubusercontent.com/100941430/195268891-53ab6231-7b9d-4ab6-9720-3c8482b82240.png)
-
+For screenshots of the app:(https://docs.google.com/document/d/1kEMzaklqMYwqLmHgfg918q75345_Km3sj5SyQVZaPqI/edit?usp=sharing)
 
 **Concepts Used:**
 
