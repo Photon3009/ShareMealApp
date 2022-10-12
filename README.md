@@ -22,7 +22,7 @@ In this system, we have tried to reduce restaurant food wastage by giving waste 
 
 **Functionality:** This application is divided into mainly 2 components- The donor interface and the NGO interface.
 
-![Screenshot_1665500240](https://user-images.githubusercontent.com/100941430/195267923-43f8fc95-4f69-45eb-9cb4-1ffb5e1c36bd.png)
+<img src="https://user-images.githubusercontent.com/100941430/195267923-43f8fc95-4f69-45eb-9cb4-1ffb5e1c36bd.png" width 200 height=300>
 
 
 Donors and NGOs have separate registration and login interface:
