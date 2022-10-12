@@ -1,4 +1,4 @@
-# ShareMealApp**SHARE MEAL APP**
+**SHARE MEAL APP**
 
 **Problem Statement:** Food shared, is food produced.
 
@@ -22,13 +22,21 @@ In this system, we have tried to reduce restaurant food wastage by giving waste 
 
 **Functionality:** This application is divided into mainly 2 components- The donor interface and the NGO interface.
 
+![](RackMultipart20221012-1-meu6gc_html_3d75bc71c6395501.png)
+
 Donors and NGOs have separate registration and login interface:
 
+![](RackMultipart20221012-1-meu6gc_html_599010054764e67.png) ![](RackMultipart20221012-1-meu6gc_html_ab6df4a7e0cc29cd.png)
+
 Similarly, we have different menu pages for donors and NGOs:
+
+![](RackMultipart20221012-1-meu6gc_html_7bc913dd3ccda161.png) ![](RackMultipart20221012-1-meu6gc_html_ea3cbb5f7032837a.png)
 
 Now donors like hostels,hotels etc can use donate, status and history options. In donate button they can mention food weight, suggest vehicle type, and also mention their mobile number and address. This data will then send to NGOs so that they can approve and accept their donation.
 
 Donors can also check their donation status by clicking on the status button if it is pending, approved or received status. This way we can connect reduce food wastage.
+
+![](RackMultipart20221012-1-meu6gc_html_66905e0215ee5c45.png) ![](RackMultipart20221012-1-meu6gc_html_b39cd411091d58f4.png) ![](RackMultipart20221012-1-meu6gc_html_cae7fe30d8d4acf1.png) ![](RackMultipart20221012-1-meu6gc_html_d071f4420b4f6fb5.png)
 
 **Concepts Used:**
 
